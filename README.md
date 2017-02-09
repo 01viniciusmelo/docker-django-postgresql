@@ -24,7 +24,7 @@ to share the code base between your host operating system and the docker contain
 Modify your workspace path appropiatedly:
 
 1. `/home/reb/django`: The main Django repository.
-2. `/home/reb/postgresql-dumps`: A folder containing PostgreSQL `.sql` dump files.
+2. `/home/reb/dumps`: A folder containing PostgreSQL `.sql` dump files.
 3. `/home/reb/.virtualenvs/django/src`: The virtual environment's repository source files.
 4. `/home/reb/.ssh`: The SSH configuration to use.
 
@@ -42,6 +42,12 @@ docker run -it -d \
     -v ~/.ssh:/home/reb/.ssh \
     --name django django
 ```
+
+* Expected paths:
+
+1. `~/workspace/django`
+2. `~/workspace/postgresql-dumps`
+3. `~/.virtualenvs/django/src`
 
 ### Run the container
 
