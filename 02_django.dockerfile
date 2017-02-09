@@ -1,5 +1,5 @@
 FROM ubuntu_django
-MAINTAINER Rafael Belliard <rafael@codemera.com>
+MAINTAINER Rafael Belliard <me@rebelliard.com>
 
 ENV USER    reb
 ENV DB      reb
