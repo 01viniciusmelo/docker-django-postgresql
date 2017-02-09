@@ -2,16 +2,6 @@
 
 # Example setup for a Django + PostgreSQL Docker container.
 
-## Run the server
-
-```
-docker start django
-docker attach django
-start
-```
-
-* Navigate to [http://localhost:8000](http://localhost:8000).
-
 ## Container setup
 
 ### Create the container
@@ -106,6 +96,16 @@ docker commit django
 ```
 
 * Note: It will take a few minutes.
+
+## Run the server
+
+```
+docker start django
+docker attach django
+start
+```
+
+* Navigate to [http://localhost:8000](http://localhost:8000).
 
 
 ### Troubleshooting
